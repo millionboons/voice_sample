@@ -1,0 +1,3 @@
+D:/workbench/cpp/vccs/lib/rnnoise/build/CMakeFiles/rnnoise.dir
+D:/workbench/cpp/vccs/lib/rnnoise/build/CMakeFiles/edit_cache.dir
+D:/workbench/cpp/vccs/lib/rnnoise/build/CMakeFiles/rebuild_cache.dir

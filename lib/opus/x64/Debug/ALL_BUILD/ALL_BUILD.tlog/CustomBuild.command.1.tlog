@@ -1,0 +1,10 @@
+^D:\WORKBENCH\CPP\VOICECHATCPP\LIB\OPUS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workbench/cpp/VoiceChatCpp/lib/opus -BD:/workbench/cpp/VoiceChatCpp/lib/opus --check-stamp-file D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

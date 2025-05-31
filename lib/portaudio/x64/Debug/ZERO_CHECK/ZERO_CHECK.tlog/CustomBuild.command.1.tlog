@@ -1,0 +1,10 @@
+^D:\WORKBENCH\CPP\VOICECHATCPP\LIB\PORTAUDIO\CMAKEFILES\2ACA15EB0D2146EFE0BE0DBCB691E3ED\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workbench/cpp/VoiceChatCpp/lib/portaudio -BD:/workbench/cpp/VoiceChatCpp/lib/portaudio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/workbench/cpp/VoiceChatCpp/lib/portaudio/portaudio.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc librnnoise.a CMakeFiles/rnnoise.dir/src/celt_lpc.c.obj CMakeFiles/rnnoise.dir/src/denoise.c.obj CMakeFiles/rnnoise.dir/src/kiss_fft.c.obj CMakeFiles/rnnoise.dir/src/pitch.c.obj CMakeFiles/rnnoise.dir/src/rnn.c.obj CMakeFiles/rnnoise.dir/src/rnn_data.c.obj CMakeFiles/rnnoise.dir/src/rnn_reader.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe librnnoise.a

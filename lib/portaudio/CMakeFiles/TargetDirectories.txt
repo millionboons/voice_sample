@@ -1,0 +1,6 @@
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/portaudio.dir
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/portaudio_static.dir
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/uninstall.dir
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/INSTALL.dir
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/ALL_BUILD.dir
+D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/ZERO_CHECK.dir

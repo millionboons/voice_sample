@@ -1,0 +1,1021 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+      Build started 31-05-2025 16:59:21.
+      
+      Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\3.31.7\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\3.31.7\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\3.31.7\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.77
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/3.31.7/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x9aoii"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x9aoii"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x9aoii'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aa595.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:22.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x9aoii\\cmTC_aa595.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_aa595.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x9aoii\\Debug\\".
+          Creating directory "cmTC_aa595.dir\\Debug\\cmTC_aa595.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_aa595.dir\\Debug\\cmTC_aa595.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_aa595.dir\\Debug\\cmTC_aa595.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa595.dir\\Debug\\\\" /Fd"cmTC_aa595.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa595.dir\\Debug\\\\" /Fd"cmTC_aa595.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x9aoii\\Debug\\cmTC_aa595.exe" /INCREMENTAL /ILK:"cmTC_aa595.dir\\Debug\\cmTC_aa595.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x9aoii/Debug/cmTC_aa595.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x9aoii/Debug/cmTC_aa595.lib" /MACHINE:X64  /machine:x64 cmTC_aa595.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_aa595.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x9aoii\\Debug\\cmTC_aa595.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_aa595.dir\\Debug\\cmTC_aa595.tlog\\unsuccessfulbuild".
+          Touching "cmTC_aa595.dir\\Debug\\cmTC_aa595.tlog\\cmTC_aa595.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x9aoii\\cmTC_aa595.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35207.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/CFeatureCheck.cmake:30 (try_compile)"
+      - "cmake/OpusConfig.cmake:27 (c_feature_check)"
+      - "CMakeLists.txt:11 (include)"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeTmp"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "COMPILE_VLA_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fba7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:23.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fba7a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_fba7a.dir\\Debug\\cmTC_fba7a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fba7a.dir\\Debug\\cmTC_fba7a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fba7a.dir\\Debug\\cmTC_fba7a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fba7a.dir\\Debug\\\\" /Fd"cmTC_fba7a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fba7a.dir\\Debug\\\\" /Fd"cmTC_fba7a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c
+          vla.c
+        D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,12): error C2057: expected constant expression [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,12): error C2466: cannot allocate an array of constant size 0 [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,10): error C2133: 'a': unknown size [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(4,7): warning C4034: sizeof returns 0 [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(4,7): warning C4034: sizeof returns 0 [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        
+        
+        "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,12): error C2057: expected constant expression [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+          D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,12): error C2466: cannot allocate an array of constant size 0 [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+          D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\cmake\\vla.c(3,10): error C2133: 'a': unknown size [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeTmp\\cmTC_fba7a.vcxproj]
+        
+            1 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusConfig.cmake:30 (check_include_file)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for alloca.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-z8wdvi"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-z8wdvi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_ALLOCA_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-z8wdvi'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_923f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:24.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\cmTC_923f7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_923f7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\Debug\\".
+          Creating directory "cmTC_923f7.dir\\Debug\\cmTC_923f7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_923f7.dir\\Debug\\cmTC_923f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_923f7.dir\\Debug\\cmTC_923f7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_923f7.dir\\Debug\\\\" /Fd"cmTC_923f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_923f7.dir\\Debug\\\\" /Fd"cmTC_923f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\CheckIncludeFile.c(1,1): error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\cmTC_923f7.vcxproj]
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\cmTC_923f7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\cmTC_923f7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\CheckIncludeFile.c(1,1): error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-z8wdvi\\cmTC_923f7.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/OpusConfig.cmake:37 (check_symbol_exists)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for alloca"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-pv81t2"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-pv81t2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "USE_ALLOCA_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-pv81t2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bb529.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:24.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\cmTC_bb529.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bb529.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\Debug\\".
+          Creating directory "cmTC_bb529.dir\\Debug\\cmTC_bb529.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bb529.dir\\Debug\\cmTC_bb529.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bb529.dir\\Debug\\cmTC_bb529.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bb529.dir\\Debug\\\\" /Fd"cmTC_bb529.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bb529.dir\\Debug\\\\" /Fd"cmTC_bb529.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\Debug\\cmTC_bb529.exe" /INCREMENTAL /ILK:"cmTC_bb529.dir\\Debug\\cmTC_bb529.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-pv81t2/Debug/cmTC_bb529.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-pv81t2/Debug/cmTC_bb529.lib" /MACHINE:X64  /machine:x64 cmTC_bb529.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_bb529.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\Debug\\cmTC_bb529.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bb529.dir\\Debug\\cmTC_bb529.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bb529.dir\\Debug\\cmTC_bb529.tlog\\cmTC_bb529.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-pv81t2\\cmTC_bb529.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "cmake/OpusConfig.cmake:43 (check_library_exists)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-ippsn7"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-ippsn7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-ippsn7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8d68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:25.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\cmTC_e8d68.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e8d68.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\Debug\\".
+          Creating directory "cmTC_e8d68.dir\\Debug\\cmTC_e8d68.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e8d68.dir\\Debug\\cmTC_e8d68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e8d68.dir\\Debug\\cmTC_e8d68.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=floor /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e8d68.dir\\Debug\\\\" /Fd"cmTC_e8d68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=floor /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e8d68.dir\\Debug\\\\" /Fd"cmTC_e8d68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\Debug\\cmTC_e8d68.exe" /INCREMENTAL /ILK:"cmTC_e8d68.dir\\Debug\\cmTC_e8d68.ilk" /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-ippsn7/Debug/cmTC_e8d68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-ippsn7/Debug/cmTC_e8d68.lib" /MACHINE:X64  /machine:x64 cmTC_e8d68.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\cmTC_e8d68.vcxproj]
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\cmTC_e8d68.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\cmTC_e8d68.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-ippsn7\\cmTC_e8d68.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/OpusConfig.cmake:49 (check_symbol_exists)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for lrintf"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-m45n1n"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-m45n1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_LRINTF"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-m45n1n'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81c28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:26.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\cmTC_81c28.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_81c28.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\Debug\\".
+          Creating directory "cmTC_81c28.dir\\Debug\\cmTC_81c28.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_81c28.dir\\Debug\\cmTC_81c28.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_81c28.dir\\Debug\\cmTC_81c28.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_81c28.dir\\Debug\\\\" /Fd"cmTC_81c28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_81c28.dir\\Debug\\\\" /Fd"cmTC_81c28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\Debug\\cmTC_81c28.exe" /INCREMENTAL /ILK:"cmTC_81c28.dir\\Debug\\cmTC_81c28.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-m45n1n/Debug/cmTC_81c28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-m45n1n/Debug/cmTC_81c28.lib" /MACHINE:X64  /machine:x64 cmTC_81c28.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_81c28.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\Debug\\cmTC_81c28.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_81c28.dir\\Debug\\cmTC_81c28.tlog\\unsuccessfulbuild".
+          Touching "cmTC_81c28.dir\\Debug\\cmTC_81c28.tlog\\cmTC_81c28.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-m45n1n\\cmTC_81c28.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake/OpusConfig.cmake:50 (check_symbol_exists)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for lrint"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-4aa0z7"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-4aa0z7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_LRINT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-4aa0z7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74103.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:26.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\cmTC_74103.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_74103.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\Debug\\".
+          Creating directory "cmTC_74103.dir\\Debug\\cmTC_74103.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_74103.dir\\Debug\\cmTC_74103.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_74103.dir\\Debug\\cmTC_74103.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_74103.dir\\Debug\\\\" /Fd"cmTC_74103.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_74103.dir\\Debug\\\\" /Fd"cmTC_74103.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\Debug\\cmTC_74103.exe" /INCREMENTAL /ILK:"cmTC_74103.dir\\Debug\\cmTC_74103.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-4aa0z7/Debug/cmTC_74103.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-4aa0z7/Debug/cmTC_74103.lib" /MACHINE:X64  /machine:x64 cmTC_74103.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_74103.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\Debug\\cmTC_74103.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_74103.dir\\Debug\\cmTC_74103.tlog\\unsuccessfulbuild".
+          Touching "cmTC_74103.dir\\Debug\\cmTC_74103.tlog\\cmTC_74103.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-4aa0z7\\cmTC_74103.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusFunctions.cmake:150 (check_include_file)"
+      - "cmake/OpusConfig.cmake:64 (opus_supports_cpu_detection)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x0g59m"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x0g59m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x0g59m'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33485.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:27.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\cmTC_33485.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_33485.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\Debug\\".
+          Creating directory "cmTC_33485.dir\\Debug\\cmTC_33485.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_33485.dir\\Debug\\cmTC_33485.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_33485.dir\\Debug\\cmTC_33485.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_33485.dir\\Debug\\\\" /Fd"cmTC_33485.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_33485.dir\\Debug\\\\" /Fd"cmTC_33485.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\Debug\\cmTC_33485.exe" /INCREMENTAL /ILK:"cmTC_33485.dir\\Debug\\cmTC_33485.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x0g59m/Debug/cmTC_33485.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-x0g59m/Debug/cmTC_33485.lib" /MACHINE:X64  /machine:x64 cmTC_33485.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_33485.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\Debug\\cmTC_33485.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_33485.dir\\Debug\\cmTC_33485.tlog\\unsuccessfulbuild".
+          Touching "cmTC_33485.dir\\Debug\\cmTC_33485.tlog\\cmTC_33485.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-x0g59m\\cmTC_33485.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusFunctions.cmake:58 (check_include_file)"
+      - "cmake/OpusConfig.cmake:68 (opus_detect_sse)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-o66neq"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-o66neq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-o66neq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c8f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:28.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\cmTC_9c8f3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9c8f3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\Debug\\".
+          Creating directory "cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9c8f3.dir\\Debug\\\\" /Fd"cmTC_9c8f3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9c8f3.dir\\Debug\\\\" /Fd"cmTC_9c8f3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\Debug\\cmTC_9c8f3.exe" /INCREMENTAL /ILK:"cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-o66neq/Debug/cmTC_9c8f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-o66neq/Debug/cmTC_9c8f3.lib" /MACHINE:X64  /machine:x64 cmTC_9c8f3.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9c8f3.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\Debug\\cmTC_9c8f3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9c8f3.dir\\Debug\\cmTC_9c8f3.tlog\\cmTC_9c8f3.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-o66neq\\cmTC_9c8f3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusFunctions.cmake:78 (check_include_file)"
+      - "cmake/OpusConfig.cmake:68 (opus_detect_sse)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-lirgyy"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-lirgyy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-lirgyy'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_119b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:29.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\cmTC_119b5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_119b5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\Debug\\".
+          Creating directory "cmTC_119b5.dir\\Debug\\cmTC_119b5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_119b5.dir\\Debug\\cmTC_119b5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_119b5.dir\\Debug\\cmTC_119b5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_119b5.dir\\Debug\\\\" /Fd"cmTC_119b5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_119b5.dir\\Debug\\\\" /Fd"cmTC_119b5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\Debug\\cmTC_119b5.exe" /INCREMENTAL /ILK:"cmTC_119b5.dir\\Debug\\cmTC_119b5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-lirgyy/Debug/cmTC_119b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-lirgyy/Debug/cmTC_119b5.lib" /MACHINE:X64  /machine:x64 cmTC_119b5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_119b5.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\Debug\\cmTC_119b5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_119b5.dir\\Debug\\cmTC_119b5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_119b5.dir\\Debug\\cmTC_119b5.tlog\\cmTC_119b5.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-lirgyy\\cmTC_119b5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusFunctions.cmake:97 (check_include_file)"
+      - "cmake/OpusConfig.cmake:68 (opus_detect_sse)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-djyuvr"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-djyuvr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-djyuvr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e6c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:29.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\cmTC_6e6c1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6e6c1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\Debug\\".
+          Creating directory "cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6e6c1.dir\\Debug\\\\" /Fd"cmTC_6e6c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6e6c1.dir\\Debug\\\\" /Fd"cmTC_6e6c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\Debug\\cmTC_6e6c1.exe" /INCREMENTAL /ILK:"cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-djyuvr/Debug/cmTC_6e6c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-djyuvr/Debug/cmTC_6e6c1.lib" /MACHINE:X64  /machine:x64 cmTC_6e6c1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6e6c1.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\Debug\\cmTC_6e6c1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e6c1.dir\\Debug\\cmTC_6e6c1.tlog\\cmTC_6e6c1.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-djyuvr\\cmTC_6e6c1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "cmake/OpusFunctions.cmake:116 (check_include_file)"
+      - "cmake/OpusConfig.cmake:68 (opus_detect_sse)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-b5gbtq"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-b5gbtq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-b5gbtq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f295.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:30.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\cmTC_3f295.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3f295.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\Debug\\".
+          Creating directory "cmTC_3f295.dir\\Debug\\cmTC_3f295.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3f295.dir\\Debug\\cmTC_3f295.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3f295.dir\\Debug\\cmTC_3f295.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3f295.dir\\Debug\\\\" /Fd"cmTC_3f295.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3f295.dir\\Debug\\\\" /Fd"cmTC_3f295.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\Debug\\cmTC_3f295.exe" /INCREMENTAL /ILK:"cmTC_3f295.dir\\Debug\\cmTC_3f295.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-b5gbtq/Debug/cmTC_3f295.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-b5gbtq/Debug/cmTC_3f295.lib" /MACHINE:X64  /machine:x64 cmTC_3f295.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_3f295.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\Debug\\cmTC_3f295.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3f295.dir\\Debug\\cmTC_3f295.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3f295.dir\\Debug\\cmTC_3f295.tlog\\cmTC_3f295.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-b5gbtq\\cmTC_3f295.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/OpusFunctions.cmake:46 (check_c_compiler_flag)"
+      - "cmake/OpusFunctions.cmake:119 (check_flag)"
+      - "cmake/OpusConfig.cmake:68 (opus_detect_sse)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test AVX2_SUPPORTED"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-zl18ry"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-zl18ry"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "AVX2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-zl18ry'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19c01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:31.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\cmTC_19c01.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19c01.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\Debug\\".
+          Creating directory "cmTC_19c01.dir\\Debug\\cmTC_19c01.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19c01.dir\\Debug\\cmTC_19c01.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_19c01.dir\\Debug\\cmTC_19c01.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D AVX2_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_19c01.dir\\Debug\\\\" /Fd"cmTC_19c01.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D AVX2_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_19c01.dir\\Debug\\\\" /Fd"cmTC_19c01.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\Debug\\cmTC_19c01.exe" /INCREMENTAL /ILK:"cmTC_19c01.dir\\Debug\\cmTC_19c01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-zl18ry/Debug/cmTC_19c01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-zl18ry/Debug/cmTC_19c01.lib" /MACHINE:X64  /machine:x64 cmTC_19c01.dir\\Debug\\src.obj
+          cmTC_19c01.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\Debug\\cmTC_19c01.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19c01.dir\\Debug\\cmTC_19c01.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19c01.dir\\Debug\\cmTC_19c01.tlog\\cmTC_19c01.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-zl18ry\\cmTC_19c01.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/OpusFunctions.cmake:46 (check_c_compiler_flag)"
+      - "cmake/OpusConfig.cmake:84 (check_flag)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test FAST_MATH_SUPPORTED"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-8899da"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-8899da"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "FAST_MATH_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-8899da'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bce60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:32.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\cmTC_bce60.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bce60.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\Debug\\".
+          Creating directory "cmTC_bce60.dir\\Debug\\cmTC_bce60.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bce60.dir\\Debug\\cmTC_bce60.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bce60.dir\\Debug\\cmTC_bce60.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FAST_MATH_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bce60.dir\\Debug\\\\" /Fd"cmTC_bce60.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FAST_MATH_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bce60.dir\\Debug\\\\" /Fd"cmTC_bce60.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\Debug\\cmTC_bce60.exe" /INCREMENTAL /ILK:"cmTC_bce60.dir\\Debug\\cmTC_bce60.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-8899da/Debug/cmTC_bce60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-8899da/Debug/cmTC_bce60.lib" /MACHINE:X64  /machine:x64 cmTC_bce60.dir\\Debug\\src.obj
+          cmTC_bce60.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\Debug\\cmTC_bce60.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bce60.dir\\Debug\\cmTC_bce60.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bce60.dir\\Debug\\cmTC_bce60.tlog\\cmTC_bce60.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-8899da\\cmTC_bce60.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/OpusFunctions.cmake:46 (check_c_compiler_flag)"
+      - "cmake/OpusConfig.cmake:85 (check_flag)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test STACK_PROTECTOR_SUPPORTED"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-9mox80"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-9mox80"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "STACK_PROTECTOR_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-9mox80'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5249d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:32.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\cmTC_5249d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5249d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\Debug\\".
+          Creating directory "cmTC_5249d.dir\\Debug\\cmTC_5249d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5249d.dir\\Debug\\cmTC_5249d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5249d.dir\\Debug\\cmTC_5249d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5249d.dir\\Debug\\\\" /Fd"cmTC_5249d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5249d.dir\\Debug\\\\" /Fd"cmTC_5249d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\Debug\\cmTC_5249d.exe" /INCREMENTAL /ILK:"cmTC_5249d.dir\\Debug\\cmTC_5249d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-9mox80/Debug/cmTC_5249d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-9mox80/Debug/cmTC_5249d.lib" /MACHINE:X64  /machine:x64 cmTC_5249d.dir\\Debug\\src.obj
+          cmTC_5249d.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\Debug\\cmTC_5249d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5249d.dir\\Debug\\cmTC_5249d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5249d.dir\\Debug\\cmTC_5249d.tlog\\cmTC_5249d.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-9mox80\\cmTC_5249d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/OpusFunctions.cmake:46 (check_c_compiler_flag)"
+      - "cmake/OpusConfig.cmake:86 (check_flag)"
+      - "CMakeLists.txt:11 (include)"
+    checks:
+      - "Performing Test STACK_PROTECTOR_DISABLED_SUPPORTED"
+    directories:
+      source: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-yv6jel"
+      binary: "D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-yv6jel"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/workbench/cpp/VoiceChatCpp/lib/opus/cmake"
+    buildResult:
+      variable: "STACK_PROTECTOR_DISABLED_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-yv6jel'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2fef1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
+        Build started 31-05-2025 16:59:33.
+        
+        Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\cmTC_2fef1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2fef1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\Debug\\".
+          Creating directory "cmTC_2fef1.dir\\Debug\\cmTC_2fef1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2fef1.dir\\Debug\\cmTC_2fef1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2fef1.dir\\Debug\\cmTC_2fef1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_DISABLED_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2fef1.dir\\Debug\\\\" /Fd"cmTC_2fef1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_DISABLED_SUPPORTED /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2fef1.dir\\Debug\\\\" /Fd"cmTC_2fef1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\Debug\\cmTC_2fef1.exe" /INCREMENTAL /ILK:"cmTC_2fef1.dir\\Debug\\cmTC_2fef1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-yv6jel/Debug/cmTC_2fef1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/CMakeScratch/TryCompile-yv6jel/Debug/cmTC_2fef1.lib" /MACHINE:X64  /machine:x64 cmTC_2fef1.dir\\Debug\\src.obj
+          cmTC_2fef1.vcxproj -> D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\Debug\\cmTC_2fef1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2fef1.dir\\Debug\\cmTC_2fef1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2fef1.dir\\Debug\\cmTC_2fef1.tlog\\cmTC_2fef1.lastbuildstate".
+        Done Building Project "D:\\workbench\\cpp\\VoiceChatCpp\\lib\\opus\\CMakeFiles\\CMakeScratch\\TryCompile-yv6jel\\cmTC_2fef1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+...

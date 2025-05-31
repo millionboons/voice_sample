@@ -1,0 +1,5 @@
+D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/opus.dir
+D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/PACKAGE.dir
+D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/INSTALL.dir
+D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/ALL_BUILD.dir
+D:/workbench/cpp/VoiceChatCpp/lib/opus/CMakeFiles/ZERO_CHECK.dir

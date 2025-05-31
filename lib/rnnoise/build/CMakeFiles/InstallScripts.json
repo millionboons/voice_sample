@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/workbench/cpp/vccs/lib/rnnoise/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

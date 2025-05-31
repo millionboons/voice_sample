@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workbench\cpp\VoiceChatCpp\lib\portaudio\CMakeFiles\2aca15eb0d2146efe0be0dbcb691e3ed\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\workbench\cpp\VoiceChatCpp\lib\portaudio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\workbench\cpp\VoiceChatCpp\lib\portaudio\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D08B3CC1-A654-3C9B-9CE9-0A4550B17446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

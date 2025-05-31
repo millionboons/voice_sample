@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workbench\cpp\VoiceChatCpp\lib\opus\CMakeFiles\3289e39cb6eca62fb944d7f742ac6938\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{10A914FD-0DF8-37B3-B142-3C6AC28E7387}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
