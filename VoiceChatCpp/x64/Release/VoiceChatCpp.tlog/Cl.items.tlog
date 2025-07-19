@@ -2,5 +2,7 @@ D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\AudioCapture.cpp;D:\workbench\cpp\Voi
 D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\AudioCodec.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\AudioCodec.obj
 D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\AudioPlayback.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\AudioPlayback.obj
 D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\NetworkReceiver.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\NetworkReceiver.obj
+D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\NetworkReceiverMulticast.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\NetworkReceiverMulticast.obj
 D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\NetworkSender.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\NetworkSender.obj
-D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\VoiceChatCpp.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\VoiceChatCpp.obj
+D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\NetworkSenderMulticast.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\NetworkSenderMulticast.obj
+D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\VoiceChatCpp1.cpp;D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\x64\Release\VoiceChatCpp1.obj

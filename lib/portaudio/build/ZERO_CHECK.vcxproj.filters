@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workbench\cpp\VoiceChatCpp\lib\portaudio\build\CMakeFiles\b61d9c8cb2d88aa7f907a0b196d2739b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE4FDC15-AFF4-38B7-AB7B-A21B11AE7685}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

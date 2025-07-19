@@ -22,11 +22,27 @@ AudioPlayback::~AudioPlayback() {
 
 bool AudioPlayback::start() {
     PaStreamParameters outputParameters;
+    int numDevices = Pa_GetDeviceCount();
+    if (numDevices < 0) {
+        std::cerr << "Error: " << Pa_GetErrorText(numDevices) << std::endl;
+        return false;
+    }
+
+
     outputParameters.device = Pa_GetDefaultOutputDevice();
     if (outputParameters.device == paNoDevice) {
         std::cerr << "Error: No default output device." << std::endl;
         return false;
     }
+
+    const PaDeviceInfo* deviceInfo = Pa_GetDeviceInfo(outputParameters.device);
+    if (!deviceInfo) {
+        std::cerr << "Error: Failed to get device info for default output device." << std::endl;
+        return false;
+    }
+    std::cout << "Selected output Device: " << deviceInfo->name
+		<< " (frames: " << framesPerBuffer_ << ")"
+          << " with default sample rate: " << deviceInfo->defaultSampleRate << std::endl;
     outputParameters.channelCount = numChannels_;
     outputParameters.sampleFormat = paFloat32;
     outputParameters.suggestedLatency = Pa_GetDeviceInfo(outputParameters.device)->defaultLowOutputLatency;
@@ -36,12 +52,13 @@ bool AudioPlayback::start() {
         &stream,
         nullptr, // No input
         &outputParameters,
-        sampleRate_,
+        deviceInfo->defaultSampleRate,
         framesPerBuffer_,
         paClipOff,
         paCallback,
         this
     );
+	this->sampleRate_ = static_cast<int>(deviceInfo->defaultSampleRate); // Update sample rate from device info
 
     if (err != paNoError) {
         std::cerr << "PortAudio open stream error: " << Pa_GetErrorText(err) << std::endl;
@@ -75,6 +92,16 @@ void AudioPlayback::playBlocking(const std::vector<float>& audioData) {
     // Append incoming audio data to the playback buffer
     playbackBuffer_.insert(playbackBuffer_.end(), audioData.begin(), audioData.end());
     // Potentially notify the callback that new data is available
+
+       // --- NEW: Simple buffer size management ---
+    // Keep buffer size limited to avoid excessive delay accumulation.
+    // If buffer gets too large, drop older data.
+    const size_t MAX_BUFFER_FRAMES = framesPerBuffer_ * 3; // e.g., keep max 3 frames worth of data
+    if (playbackBuffer_.size() > MAX_BUFFER_FRAMES * numChannels_) {
+        playbackBuffer_.erase(playbackBuffer_.begin(), playbackBuffer_.begin() + (playbackBuffer_.size() - MAX_BUFFER_FRAMES * numChannels_));
+        std::cerr << "Warning: Playback buffer too large, dropping old data!\n";
+    }
+    // --- END NEW ---
     condVar_.notify_one();
 }
 

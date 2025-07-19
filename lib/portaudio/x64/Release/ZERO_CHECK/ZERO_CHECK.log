@@ -1,18 +1,1 @@
 ﻿  1>Checking Build System
-  CMake is re-running because D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/generate.stamp is out-of-date.
-    the file 'D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeLists.txt'
-    is newer than 'D:/workbench/cpp/VoiceChatCpp/lib/portaudio/CMakeFiles/generate.stamp.depend'
-    result='-1'
-  CMake Deprecation Warning at CMakeLists.txt:7 (CMAKE_MINIMUM_REQUIRED):
-    Compatibility with CMake < 3.10 will be removed from a future version of
-    CMake.
-  
-    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
-    to tell CMake that the project requires at least <min> but has been updated
-    to work with policies introduced by <max> or earlier.
-  
-  
-  -- Could NOT find ASIOSDK (missing: ASIOSDK_ROOT_DIR ASIOSDK_INCLUDE_DIR) 
-  -- Configuring done (0.1s)
-  -- Generating done (0.5s)
-  -- Build files have been written to: D:/workbench/cpp/VoiceChatCpp/lib/portaudio

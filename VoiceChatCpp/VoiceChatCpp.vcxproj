@@ -109,7 +109,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\workbench\cpp\VoiceChatCpp\lib\portaudio\Debug;D:\workbench\cpp\VoiceChatCpp\lib\opus\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>portaudio_static_x64.lib;opus.lib;ole32.lib;uuid.lib;winmm.lib;setupapi.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>portaudio_static_x64.lib;opus.lib;uuid.lib;winmm.lib;setupapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -126,7 +126,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>D:\workbench\cpp\VoiceChatCpp\lib\opus\Release;D:\workbench\cpp\VoiceChatCpp\lib\portaudio\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>portaudio_static_x64.lib;opus.lib;ole32.lib;uuid.lib;winmm.lib;setupapi.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>portaudio_x64.lib;opus.lib;ole32.lib;uuid.lib;winmm.lib;setupapi.lib;msacm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -134,20 +134,27 @@
     <ClCompile Include="AudioCodec.cpp" />
     <ClCompile Include="AudioPlayback.cpp" />
     <ClCompile Include="NetworkReceiver.cpp" />
+    <ClCompile Include="NetworkReceiverMulticast.cpp" />
     <ClCompile Include="NetworkSender.cpp" />
-    <ClCompile Include="VoiceChatCpp.cpp" />
+    <ClCompile Include="NetworkSenderMulticast.cpp" />
+    <ClCompile Include="VoiceChatCpp1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AudioCapture.h" />
     <ClInclude Include="AudioCodec.h" />
     <ClInclude Include="AudioPlayback.h" />
     <ClInclude Include="NetworkReceiver.h" />
+    <ClInclude Include="NetworkReceiverMulticast.h" />
     <ClInclude Include="NetworkSender.h" />
+    <ClInclude Include="NetworkSenderMulticast.h" />
     <ClInclude Include="PacketQueue.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VoiceChatCpp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ip.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

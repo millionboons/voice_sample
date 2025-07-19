@@ -78,8 +78,7 @@ std::vector<unsigned char> NetworkReceiver::receivePacketBlocking() {
     sockaddr_in senderAddr;
 
 #ifdef _WIN32
-    int bytesReceived = recvfrom(sockfd, (char*)buffer.data(), static_cast<int>(buffer.size()), 0,
-        (SOCKADDR*)&senderAddr, &addrLen);
+    int bytesReceived = recvfrom(sockfd, (char*)buffer.data(), static_cast<int>(buffer.size()), 0, (SOCKADDR*)&senderAddr, &addrLen);
     if (bytesReceived == SOCKET_ERROR) {
         if (running) { // Check if we're still supposed to be running
             std::cerr << "recvfrom failed: " << WSAGetLastError() << "\n";

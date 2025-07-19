@@ -1,5 +1,7 @@
 #include "AudioCapture.h"
 
+
+
 AudioCapture::AudioCapture(int sampleRate, int framesPerBuffer, int numChannels)
     : stream(nullptr),
     sampleRate_(sampleRate),
@@ -31,6 +33,15 @@ bool AudioCapture::start() {
         std::cerr << "Error: No default input device." << std::endl;
         return false;
     }
+
+    const PaDeviceInfo* deviceInfo = Pa_GetDeviceInfo(inputParameters.device);
+    if (!deviceInfo) {
+        std::cerr << "Error: Failed to get device info for default input device." << std::endl;
+        return false;
+    }
+    std::cout << "Selected Input Device: " << deviceInfo->name
+        << " (frames: " << framesPerBuffer_ << ")"
+        << " with default sample rate: " << deviceInfo->defaultSampleRate << std::endl;
     inputParameters.channelCount = numChannels_;
     inputParameters.sampleFormat = paFloat32; // Use float32 for audio processing
     inputParameters.suggestedLatency = Pa_GetDeviceInfo(inputParameters.device)->defaultLowInputLatency;
@@ -40,12 +51,13 @@ bool AudioCapture::start() {
         &stream,
         &inputParameters,
         nullptr, // No output
-        sampleRate_,
+        deviceInfo->defaultSampleRate,
         framesPerBuffer_,
         paClipOff, // We won't be clipping here
         paCallback,
         this // Pass 'this' as userData to access member variables
     );
+    this->sampleRate_ = static_cast<int>(deviceInfo->defaultSampleRate); // Update sample rate from device info
 
     if (err != paNoError) {
         std::cerr << "PortAudio open stream error: " << Pa_GetErrorText(err) << std::endl;

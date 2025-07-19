@@ -1,6 +1,8 @@
 d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\vc143.pdb
-d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\voicechatcpp.obj
+d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\voicechatcpp1.obj
+d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\networksendermulticast.obj
 d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\networksender.obj
+d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\networkreceivermulticast.obj
 d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\networkreceiver.obj
 d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\audioplayback.obj
 d:\workbench\cpp\voicechatcpp\voicechatcpp\x64\release\audiocodec.obj

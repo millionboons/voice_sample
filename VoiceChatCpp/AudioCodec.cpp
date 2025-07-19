@@ -12,11 +12,19 @@ bool AudioCodec::initializeEncoder(int sampleRate, int channels, int bitrate) {
         std::cerr << "Failed to create Opus encoder: " << opus_strerror(error) << std::endl;
         return false;
     }
+    std::cout << "[Opus Encoder] "<< channels << " sampleRate = " << sampleRate << " channels = " << channels << std::endl;
+
     opus_encoder_ctl(encoder, OPUS_SET_BITRATE(bitrate));
     opus_encoder_ctl(encoder, OPUS_SET_VBR(0)); // Disable VBR for more consistent latency
     opus_encoder_ctl(encoder, OPUS_SET_COMPLEXITY(1)); // Lowest complexity for speed
     opus_encoder_ctl(encoder, OPUS_SET_LSB_DEPTH(16)); // Use 16-bit depth
-   //opus_encoder_ctl(encoder, OPUS_SET_SIGNAL_TYPE(OPUS_SIGNAL_VOICE));
+    opus_encoder_ctl(encoder, OPUS_SET_SIGNAL(OPUS_SIGNAL_VOICE));
+    //opus_encoder_ctl(encoder, OPUS_SET_EXPERT_FRAME_DURATION(OPUS_FRAMESIZE_10_MS));
+    opus_encoder_ctl(encoder, OPUS_SET_PACKET_LOSS_PERC(10));
+    opus_encoder_ctl(encoder, OPUS_SET_BANDWIDTH(OPUS_BANDWIDTH_NARROWBAND));  // 4 kHz
+
+
+
 
     // For ultra-low latency, the frame size is critical.
     // opus_encode takes frames based on sample_rate, num_channels, and frames_per_buffer.
@@ -59,8 +67,9 @@ std::vector<unsigned char> AudioCodec::encode(const std::vector<float>& pcmData)
     // Number of samples per channel in the input pcmData
     int frame_size = static_cast<int>(pcm_int16.size() / numChannels_);
 
-    opus_int32 len = opus_encode(encoder, pcm_int16.data(), frame_size,
-        encodedData.data(), (opus_int32)MAX_PACKET_SIZE);
+    //std::cout << "Fframe_size:\n  " << frame_size << std::endl;
+
+    opus_int32 len = opus_encode(encoder, pcm_int16.data(), frame_size, encodedData.data(), (opus_int32)MAX_PACKET_SIZE);
 
     if (len < 0) {
         std::cerr << "Opus encoding failed: " << opus_strerror(len) << std::endl;
@@ -88,6 +97,10 @@ std::vector<float> AudioCodec::decode(const std::vector<unsigned char>& encodedD
     if (frame_size < 0) {
         std::cerr << "Opus decoding failed: " << opus_strerror(frame_size) << std::endl;
         return {};
+    }
+
+    if (frame_size != 240 && frame_size != 480 && frame_size != 960 && frame_size != 1920 && frame_size != 2880) {
+        std::cerr << "Warning: Unsupported frame_size for Opus: " << frame_size << std::endl;
     }
 
     std::vector<float> decodedData(frame_size * numChannels_);
