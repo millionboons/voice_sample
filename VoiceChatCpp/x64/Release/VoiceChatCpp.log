@@ -5,10 +5,10 @@
   NetworkReceiverMulticast.cpp
   NetworkSender.cpp
   NetworkSenderMulticast.cpp
-  VoiceChatCpp1.cpp
+  VoiceChatCpp.cpp
   Generating code
   Previous IPDB not found, fall back to full compilation.
-D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\VoiceChatCpp1.cpp(110): warning C4715: 'getsamplerates': not all control paths return a value
+D:\workbench\cpp\VoiceChatCpp\VoiceChatCpp\VoiceChatCpp.cpp(110): warning C4715: 'getsamplerates': not all control paths return a value
   All 780 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
   VoiceChatCpp.vcxproj -> D:\workbench\cpp\VoiceChatCpp\x64\Release\VoiceChatCpp.exe

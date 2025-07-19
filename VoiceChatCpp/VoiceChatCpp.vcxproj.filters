@@ -35,7 +35,7 @@
     <ClCompile Include="NetworkReceiverMulticast.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="VoiceChatCpp1.cpp">
+    <ClCompile Include="VoiceChatCpp.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

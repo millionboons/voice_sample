@@ -137,7 +137,7 @@
     <ClCompile Include="NetworkReceiverMulticast.cpp" />
     <ClCompile Include="NetworkSender.cpp" />
     <ClCompile Include="NetworkSenderMulticast.cpp" />
-    <ClCompile Include="VoiceChatCpp1.cpp" />
+    <ClCompile Include="VoiceChatCpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AudioCapture.h" />
